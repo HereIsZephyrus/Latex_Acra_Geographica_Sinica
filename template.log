@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.2)  9 JAN 2025 17:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.2)  9 JAN 2025 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -647,12 +647,6 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 129.
 
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 130.
-
 (/usr/local/texlive/2023/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip89
@@ -861,7 +855,7 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 
 
 LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 53.
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 47.
 
 File: template.png Graphic file (type bmp)
 <template.png>
@@ -872,18 +866,18 @@ Package xeCJK Warning: Unknown CJK family `song' is being ignored.
 (xeCJK)                define it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 (./template.bbl
 
 Package fancyhdr Warning: \headheight is too small (17.07182pt): 
-(fancyhdr)                Make it at least 33.3375pt, for example:
-(fancyhdr)                \setlength{\headheight}{33.3375pt}.
+(fancyhdr)                Make it at least 33.4664pt, for example:
+(fancyhdr)                \setlength{\headheight}{33.4664pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-16.26567pt}.
+(fancyhdr)                \addtolength{\topmargin}{-16.39458pt}.
 
 [1
 
@@ -897,19 +891,44 @@ Package fancyhdr Warning: \headheight is too small (17.07182pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.72813pt}.
 
 [2]
-LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 113.
+LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 107.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 113.
+(Font)              size <10.95> substituted on input line 107.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 113.
+(Font)              size <10.95> substituted on input line 107.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 113.
+(Font)              size <10.95> substituted on input line 107.
+
+LaTeX Font Info:    Calculating math sizes for size <7.875> on input line 107.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.51247> not available
+(Font)              size <6> substituted on input line 107.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.9375> not available
+(Font)              size <5> substituted on input line 107.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.51247> not available
+(Font)              size <6> substituted on input line 107.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.9375> not available
+(Font)              size <5> substituted on input line 107.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.51247> not available
+(Font)              size <6> substituted on input line 107.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.9375> not available
+(Font)              size <5> substituted on input line 107.
 
 
 Package fancyhdr Warning: \headheight is too small (17.07182pt): 
@@ -924,19 +943,23 @@ enddocument/afterlastpage: lastpage setting LastPage.
 (./template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.45pt have occurred.
+(Font)              up to 1.0625pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 35 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 17445 strings out of 476683
- 363918 string characters out of 5804048
- 1863018 words of memory out of 5000000
- 37430 multiletter control sequences out of 15000+600000
- 524669 words of font info for 139 fonts, out of 8000000 for 9000
+ 17425 strings out of 476683
+ 362379 string characters out of 5804048
+ 1860018 words of memory out of 5000000
+ 37412 multiletter control sequences out of 15000+600000
+ 525072 words of font info for 144 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,12n,92p,335b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,92p,335b,786s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on template.pdf (3 pages).

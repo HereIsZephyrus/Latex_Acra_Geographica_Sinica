@@ -109,10 +109,10 @@
 \fancypagestyle{plain}{
 \fancyhf{}
 \setboolean{first}{false}
-\lhead{\xiaowuhao{第~XX~卷\quad 第~X~期\\XXXX~年~XX~月}}
-\chead{\fontsize{11}{\baselineskip}\centering{地~~理~~学~~报\\
-\scriptsize{\fontsize{11}{\baselineskip}\textbf{ACTA GEOGRAPHICA SINICA}}}}
-\rhead{\xiaowuhao{Vol. XX, No. XX\\May, 2017}}
+\lhead{\xiaowuhao{XXXX~年~XX~月}}
+\chead{\fontsize{11}{\baselineskip}\centering{中国地质大学（武汉）未来技术学院\\
+\scriptsize{\fontsize{11}{\baselineskip}\textbf{School of Future Technology, China University of Geosciences}}}}
+\rhead{\xiaowuhao{May, 2017}}
 \lfoot{}
 \cfoot{}
 \rfoot{}}
@@ -125,11 +125,9 @@
 \setboolean{first}{true}%设定fist变量初值为true
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[RE]{第~XX~卷}
-\fancyhead[CE]{中~~华~~大~~学}
 \fancyhead[LE,RO]{\thepage}
-\fancyhead[CO]{张三，李四**********}
-\fancyhead[LO]{第~X~期}
+\fancyhead[CE]{张三，李四**********}
+\fancyhead[CO]{中国地质大学（武汉）未来技术学院}
 \lfoot{}
 \cfoot{}
 \rfoot{}
