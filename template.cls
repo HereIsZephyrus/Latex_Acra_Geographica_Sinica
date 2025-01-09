@@ -16,7 +16,8 @@
 %\usepackage{color}
 \usepackage{subfigure}   % 使用子图形
 %\usepackage{1-in-2}
-\usepackage[labelfont=bf]{caption}
+\usepackage{caption}
+\captionsetup[figure]{labelfont=bf,font={small}}
 \usepackage{booktabs}
 \usepackage{layout}
 \usepackage{epstopdf}
@@ -108,12 +109,10 @@
 \fancypagestyle{plain}{
 \fancyhf{}
 \setboolean{first}{false}
-\lhead{第~XX~卷\quad 第~X~期\\
-\scriptsize{XXXX~年~XX~月}}
-\chead{\centering{中~~华~~大~~学\\
-\scriptsize{\textbf{Jourinal of *****}}}}
-\rhead{Vol. XX, No. XX\\
-\scriptsize{May, 2017}}
+\lhead{\xiaowuhao{第~XX~卷\quad 第~X~期\\XXXX~年~XX~月}}
+\chead{\fontsize{11}{\baselineskip}\centering{地~~理~~学~~报\\
+\scriptsize{\fontsize{11}{\baselineskip}\textbf{ACTA GEOGRAPHICA SINICA}}}}
+\rhead{\xiaowuhao{Vol. XX, No. XX\\May, 2017}}
 \lfoot{}
 \cfoot{}
 \rfoot{}}
@@ -127,7 +126,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[RE]{第~XX~卷}
-\fancyhead[CE]{中~~华~~大~~学}
+\fancyhead[CE]{地~~理~~学~~报}
 \fancyhead[LE,RO]{\thepage}
 \fancyhead[CO]{张三，李四**********}
 \fancyhead[LO]{第~X~期}
@@ -151,12 +150,14 @@
 \setlength{\headsep}{-0.pt}
 
 %-----------------页面布局-----------------
-\geometry{left=1.6cm,right=1.8cm,top=2.0cm,bottom=1.7cm}
+\geometry{left=2cm,right=2cm,top=2.0cm,bottom=1.2cm}
 
 %-----------------分栏与正文距离-----------
 \setlength{\multicolsep}{0.0pt plus 0.0pt minus 0.0pt}% 50% of original
 %-----------------题目与正文-----------------
-\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\section}{\normalfont\sihao\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\hei\wuhao\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\hei\wuhao\bfseries}{\thesubsubsection}{1em}{}
 \titlespacing*{\section} {0pt}{0pt plus 0pt minus .0pt}{6pt plus .0pt}
 \titlespacing*{\subsection} {0pt}{0ex plus 0ex minus .0ex}{6pt plus .0pt}
 \titlespacing*{\subsubsection} {0pt}{0ex plus 0ex minus .0ex}{0pt plus .0pt}
@@ -201,7 +202,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %------------------------------标题名称中文化-----------------------------%  
 \renewcommand\abstractname{\hei 摘\ 要}  
-\renewcommand\refname{\hei 参考文献}  
+\renewcommand\refname{\wuhao\hei 参考文献}  
 \renewcommand\figurename{\hei 图}  
 \renewcommand\tablename{\hei 表}  
 %------------------------------定理名称中文化-----------------------------%  

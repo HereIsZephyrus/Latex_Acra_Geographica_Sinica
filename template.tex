@@ -1,7 +1,7 @@
 %h%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %LaTeX 简短的论文期刊模板                   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[a4paper,onecolumn,twoside]{article}
+\documentclass[a4paper,onecolumn,twosize]{article}
 \input{template.cls}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -11,46 +11,27 @@
 
             % \maketitle%生成标题  
     \thispagestyle{plain}
-             \vspace{-3em}
             \begin{center}
               \parbox{\textwidth}{
+                \vspace{25pt}
                 \begin{center}
-                  {\sanhao{\textbf{××××××论文题目×××××}}}\\
+                  {\xiaoerhao{\textbf{××××××论文标题×××××}}}\\[2pt]
+                  {\sanhao{\textbf{××××××论文副标题×××××}}}\\
                 \vspace{3pt}
-                  \vspace{-0.0cm}
                 \end{center}
                 \begin{center}
-                  \textbf{张三$^1$, 李四$^2$}\\[2pt]
-                  \small{(1××学院，江西南昌 330031；2中心，江西南昌 330001；)}\\[2pt]
+                  {\sihao\textbf{张三$^1$, 李四$^2$}}\\[2pt]
+                  {\liuhao(1. 中国地质大学(武汉)地理与信息工程学院，武汉 430074；2. 中国地质大学(武汉)未来技术学院， 武汉 430074)}\\[2pt]
                 \end{center}
-                {\small{\textbf{摘~要：}这是一个中文模板，在本块添加中文摘要。
+                {\xiaowuhao{\textbf{摘~要：}这是一个中文模板，在本块添加中文摘要。
                 \\
                 
                 \textbf{关键字：}模板；Latex\\
-                \textbf{文献标志码：}A \hspace{4cm} \textbf{中国分类号：}TP18
               }}
 
               }
             \end{center}
 
-
-            \begin{center}
-              \parbox{\textwidth}{
-                \begin{center}
-                  {\sanhao{\textbf{××××××××××××Title×××××××××}}}\\
-                  \vspace{-0.0cm}
-                \end{center}
-                \begin{center}
-                  \textbf{Zhang San$^1$,Li Si$^2$;}\\[2pt]
-                  \small{(1 School of ××××××, Nanchang 330031, Jiangxi;2 The
-                  Jiangxi Province ××××××××, Nanchang 330000, Jiangxi)}\\[2pt]
-                \end{center}
-                {\small{\textbf{Abstract:}\quad This is template of chiese
-                Journal Paper
-                \\
-                \textbf{Keywords}\quad template；Latex}}
-              }
-            \end{center}
 
             \noindent{\footnote{\noindent {\textbf{收稿日期}：2017-05-30；\textbf{修回日期}
           ：}
@@ -65,7 +46,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %正文部分
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{multicols}{2}
 \section{引言}
 文献 \cite{1}可以看出×××,文献 \cite{2}得到的结论是××××。 
 \section{相关理论介绍}     
@@ -106,14 +86,32 @@
 \subsubsection{测试3:}
   \renewcommand\refname{参考文献}
   
-  \xiaowuhao{
+  \liuhao{
   \bibliographystyle{gbt7714-2005}
   \bibliography{thesis-ref} 
   \setlength{\itemsep}{- 2mm}
 }
 
-\clearpage
-\end{multicols}
+\newpage
+
+\begin{center}
+  \parbox{\textwidth}{
+    \vspace{25pt}
+    \begin{center}
+      {\sanhao{\textbf{××××××××××××Title×××××××××}}}\\
+      \vspace{-0.0cm}
+    \end{center}
+    \begin{center}
+      {\wuhao\textbf{Zhang San$^1$,Li Si$^2$;}}\\[2pt]
+      {\liuhao(1 School of ××××××, Nanchang 330031, Jiangxi;2 The
+      Jiangxi Province ××××××××, Nanchang 330000, Jiangxi)}\\[2pt]
+    \end{center}
+    {\wuhao{\textbf{Abstract:}\quad This is template of chiese
+    Journal Paper
+    \\
+    \textbf{Keywords}\quad template；Latex}}
+  }
+\end{center}
 
 \end{document}
 
